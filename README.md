@@ -19,7 +19,7 @@ make
 sudo make install
 # Compile this repository
 git clone https://github.com/rkoyama1623/ogre_samples.git
-cd 01_minimal_ogre
+cd BasicTutorials/00_Introduction/01_minimal_ogre
 mkdir build
 cd build
 cmake ..
@@ -28,10 +28,14 @@ make
 ## How to execute
 You can show ogre head by following commands.
 ```bash
-cd 01_minimal_ogre
+cd BasicTutorials/00_Introduction/01_minimal_ogre
 ./build/MinimalOgre
 ```
 ![ogre-head](doc/ogre_head.png)
+
+## Garally
+![01_YourFirstScene](doc/01_YourFirstScene.jpg)
+![02_LightsCamerasAndShadows](doc/02_LightsCamerasAndShadows.jpg)
 
 ## Trouble Shooting
 ### mising some files

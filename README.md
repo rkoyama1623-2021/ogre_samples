@@ -24,10 +24,14 @@ mkdir build
 cd build
 cmake ..
 make
-cd ..
-./build/MinimalOgre
 ```
 ## How to execute
+You can show ogre head by following commands.
+```bash
+cd 01_minimal_ogre
+./build/MinimalOgre
+```
+![ogre-head](doc/ogre_head.png)
 
 ## Trouble Shooting
 ### mising some files

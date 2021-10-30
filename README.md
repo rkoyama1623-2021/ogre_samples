@@ -7,9 +7,32 @@ This is compilable [Minimal OGRE Sample for v1.9](https://wiki.ogre3d.org/tiki-i
 
 ## How to Build?
 ```bash
-sudo apt install libogre-1.9-dev
+# Install Prerequisites
+# See https://ogrecave.github.io/ogre/api/1.12/building-ogre.html
+sudo apt install libzzip-dev
+# Build ogre
+git clone https://github.com/OGRECave/ogre.git
+cd ogre
+mkdir build && cd build
+cmake ..
+make
+sudo make install
+# Compile this repository
 git clone https://github.com/rkoyama1623/ogre_samples.git
+cd 01_minimal_ogre
 mkdir build
 cd build
 cmake ..
+make
+cd ..
+./build/MinimalOgre
 ```
+## How to execute
+
+## Trouble Shooting
+### mising some files
+`libogre-1.9-dev` is not sufficient to compile sample program.
+```bash
+sudo apt install libogre-1.9-dev # Not sufficient
+```
+You have to build OGRE v1.9 from source.

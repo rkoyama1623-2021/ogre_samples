@@ -1,1 +1,1 @@
-https://ogrecave.github.io/ogre/api/latest/tut__first_scene.html
+https://ogrecave.github.io/ogre/api/latest/tut__lights_cameras_shadows.html

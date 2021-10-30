@@ -10,8 +10,8 @@ find_package(Boost REQUIRED
 pkg_check_modules(OGRE OGRE OGRE-Overlay)
 pkg_check_modules(OIS OIS)
 
-message("OGRE_OV_INCLUDE_DIRS: ${OGRE_OV_INCLUDE_DIRS}")
-message("ZLIB_LIBRARIES: ${ZLIB_LIBRARIES}")
+message("OGRE_INCLUDE_DIRS: ${OGRE_INCLUDE_DIRS}")
+message("OGRE_LIBRARIES: ${OGRE_LIBRARIES}")
 include_directories(
   ${OGRE_INCLUDE_DIRS}
   ${OIS_INCLUDE_DIRS}

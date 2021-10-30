@@ -12,8 +12,10 @@ pkg_check_modules(OIS OIS)
 
 message("OGRE_INCLUDE_DIRS: ${OGRE_INCLUDE_DIRS}")
 message("OGRE_LIBRARIES: ${OGRE_LIBRARIES}")
-include_directories(${OGRE_INCLUDE_DIRS})
-include_directories(${OIS_INCLUDE_DIRS})
+include_directories(
+  ${OGRE_INCLUDE_DIRS}
+  ${OIS_INCLUDE_DIRS}
+)
 
 # Add executable
 add_executable(MinimalOgre MinimalOgre.cpp)

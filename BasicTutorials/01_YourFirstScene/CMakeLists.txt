@@ -7,7 +7,7 @@ find_package(Boost REQUIRED
   system
 )
 
-pkg_check_modules(OGRE OGRE OGRE-Overlay)
+pkg_check_modules(OGRE OGRE OGRE-Overlay OGRE-RTShaderSystem)
 pkg_check_modules(OIS OIS)
 
 message("OGRE_INCLUDE_DIRS: ${OGRE_INCLUDE_DIRS}")

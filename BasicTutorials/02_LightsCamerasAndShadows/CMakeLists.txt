@@ -19,5 +19,5 @@ include_directories(
 )
 
 # Add executable
-add_executable(BasicTutorial1 TutorialApplication.cpp ../Common/BaseApplication.cpp)
-target_link_libraries(BasicTutorial1 ${OGRE_LIBRARIES} ${OIS_LIBRARIES} ${Boost_LIBRARIES})
+add_executable(BasicTutorial2 TutorialApplication.cpp ../Common/BaseApplication.cpp)
+target_link_libraries(BasicTutorial2 ${OGRE_LIBRARIES} ${OIS_LIBRARIES} ${Boost_LIBRARIES})
